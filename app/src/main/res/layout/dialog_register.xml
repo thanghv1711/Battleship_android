@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:id="@+id/dRegisterScreen">
+
+    <TextView
+        android:id="@+id/dRegisterLbTitle"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:text="@string/lbTitleRegisterDialog"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/dRegisterLlFirstname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dRegisterLbFirstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/lbFirstnameRegisterDialog"
+            android:textColor="@android:color/background_dark" />
+
+        <EditText
+            android:id="@+id/dRegisterTxtFirstname"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/txtFirstnameRegisterDialog"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dRegisterLlLastname"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/dRegisterLlFirstname"
+        android:layout_alignStart="@+id/dRegisterLlFirstname"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dRegisterLbLastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/lbLastnameRegisterDialog"
+            android:textColor="@android:color/background_dark" />
+
+        <EditText
+            android:id="@+id/dRegisterTxtLastname"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/txtLastnameRegisterDialog"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dRegisterLlNickname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/dRegisterLlLastname"
+        android:layout_below="@+id/dRegisterLlLastname"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dRegisterLbNickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/lbNicknameRegisterDialog"
+            android:textColor="@android:color/background_dark" />
+
+        <EditText
+            android:id="@+id/dRegisterTxtNickname"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/txtNicknameRegisterDialog"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dRegisterLlUsername"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/dRegisterLlNickname"
+        android:layout_below="@+id/dRegisterLlNickname"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dRegisterLbUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/lbUsernameRegisterDialog"
+            android:textColor="@android:color/background_dark" />
+
+        <EditText
+            android:id="@+id/dRegisterTxtUsername"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/txtUsernameRegisterDialog"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dRegisterLlPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dRegisterLlUsername"
+        android:layout_alignStart="@+id/dRegisterLlUsername"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dRegisterLbPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/lbPasswordRegisterDialog"
+            android:textColor="@android:color/background_dark" />
+
+        <EditText
+            android:id="@+id/dRegisterTxtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/txtPasswordRegisterDialog"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/dRegisterBtnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/dRegisterLbTitle"
+        android:layout_marginBottom="23dp"
+        android:text="@string/btnCancelRegisterDialog" />
+
+    <Button
+        android:id="@+id/dRegisterBtnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/dRegisterLbTitle"
+        android:layout_alignTop="@+id/dRegisterBtnCancel"
+        android:text="@string/btnRegisterRegisterDialog" />
+
+</RelativeLayout>

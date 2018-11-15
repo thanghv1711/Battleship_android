@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">BattleShip</string>
+    <!--Login activity-->
+    <string name="imgTitleLoginScreen">BattleShip Title</string>
+    <string name="btnPlayLoginScreen">Play</string>
+
+    <!--Login dialog-->
+    <string name="lbTitleLoginDialog">You have a account?</string>
+    <string name="lbPasswordLoginDialog">Password:</string>
+    <string name="lbUsernameLoginDialog">Username:</string>
+    <string name="txtUsernameLoginDialog">Input username</string>
+    <string name="txtPasswordLoginDialog">Input password</string>
+    <string name="cbxRememberLoginDialog">Remember my password</string>
+    <string name="btnLoginLoginDialog">Login</string>
+    <string name="btnRegisterLoginDialog">Register</string>
+
+    <!--Register dialog-->
+    <string name="lbTitleRegisterDialog">Register</string>
+    <string name="lbFirstnameRegisterDialog">First name: </string>
+    <string name="lbLastnameRegisterDialog">Last name: </string>
+    <string name="lbNicknameRegisterDialog">Nickname: </string>
+    <string name="lbUsernameRegisterDialog">Username: </string>
+    <string name="lbPasswordRegisterDialog">Password: </string>
+    <string name="txtFirstnameRegisterDialog">Input first name </string>
+    <string name="txtLastnameRegisterDialog">Input last name </string>
+    <string name="txtNicknameRegisterDialog">Name display in game</string>
+    <string name="txtUsernameRegisterDialog">Input username </string>
+    <string name="txtPasswordRegisterDialog">Input password </string>
+    <string name="btnCancelRegisterDialog">Cancel</string>
+    <string name="btnRegisterRegisterDialog">Register</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <!--Room battle activity-->
+    <string name="imgBattleRoomBattleActivity">battle</string>
+    <string name="imgPlayerRoomBattleActivity">avatar player</string>
+    <string name="imgAvaiRoomBattleActivity">available</string>
+    <string name="toggleOpenRoom">Open</string>
+    <string name="toggleCloseRoom">Close</string>
+    <string name="titleBarRoomBattleActivity">RoomActivity</string>
+    <string name="backGroundDrawerMenu">backGround</string>
+    <string name="nickNameDrawerMenu">abc</string>
+
+    <!--Invite dialog-->
+    <string name="imgLoadInviteDialog">loading. . .</string>
+    <string name="lbTitleInviteDialog">Waiting your opponent!!!</string>
+    <string name="btnCancelInviteDialog">Cancel</string>
+
+    <!--Invited dialog-->
+    <string name="imgLoadInvitedDialog">loading. . .</string>
+    <string name="btnRefuseInvitedDialog">Refuse</string>
+    <string name="btnAcceptInvitedDialog">Accept</string>
+
+    <!--Arrange board activity-->
+    <string name="btnArrangeArrangeBoardActivity">Arrange your ships</string>
+    <string name="btnPlayArrangeBoardActivity">Play</string>
+
+    <!--Play game activity-->
+    <string name="lbNotiTurnPlayGameActivity">Your Turn</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

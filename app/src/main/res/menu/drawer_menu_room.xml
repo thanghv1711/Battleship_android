@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/profileItem" android:title="Profile" android:icon="@drawable/ic_project_profile"/>
+    <item android:id="@+id/logoutItem" android:title="Log out" android:icon="@drawable/ic_project_logout"/>
+</menu>

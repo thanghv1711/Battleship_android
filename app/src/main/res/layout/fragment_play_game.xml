@@ -1,0 +1,88 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fu.prm391.example.view.PlayGameFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fu.prm391.example.entity.GameBoard
+            android:id="@+id/fPlayGameBoard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/fPlayGameLbTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fPlayGameBoard"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fPlayGameLbTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fPlayGameLbTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:text="30"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/fPlayGameLbYourPointTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/fPlayGameLbTitle"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="-40dp"
+            android:text="Your Ships:"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/fPlayGameLbOpponentPointTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/fPlayGameLbYourPointTitle"
+            android:layout_alignTop="@+id/fPlayGameLbYourPointTitle"
+            android:layout_marginTop="30dp"
+            android:text="Opponent Ships:"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/fPlayGameLbYourPoint"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/fPlayGameLbYourPointTitle"
+            android:layout_alignEnd="@+id/fPlayGameLbOpponentPointTitle"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentBottom="false"
+            android:layout_marginEnd="-50dp"
+            android:background="@drawable/point"
+            android:text="0"
+            android:textAlignment="viewEnd" />
+
+        <TextView
+            android:id="@+id/fPlayGameLbOpponentPoint"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/fPlayGameLbOpponentPointTitle"
+            android:layout_alignEnd="@+id/fPlayGameLbOpponentPointTitle"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentBottom="false"
+            android:layout_marginEnd="-50dp"
+            android:background="@drawable/point"
+            android:text="0"
+            android:textAlignment="viewEnd" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>
